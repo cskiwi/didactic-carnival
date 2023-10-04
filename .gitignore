@@ -40,3 +40,6 @@ Thumbs.db
 
 .angular
 .vercel
+/test-results/
+/playwright-report/
+/playwright/.cache/

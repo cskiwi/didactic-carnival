@@ -67,7 +67,7 @@
     "@nx/playwright": "16.9.1",
     "@nx/webpack": "16.9.1",
     "@nx/workspace": "16.9.1",
-    "@playwright/test": "^1.36.0",
+    "@playwright/test": "^1.38.1",
     "@schematics/angular": "~16.2.0",
     "@types/jest": "^29.4.0",
     "@types/node": "~18.7.1",

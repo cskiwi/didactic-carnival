@@ -14,7 +14,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@royal-wolf/count": ["libs/backend/count/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

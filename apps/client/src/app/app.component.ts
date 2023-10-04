@@ -1,13 +1,12 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { NxWelcomeComponent } from './nx-welcome.component';
 
 @Component({
   standalone: true,
-  imports: [NxWelcomeComponent, RouterModule],
-  selector: 'fse-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'],
+  imports: [RouterModule],
+  selector: 'app-root',
+  template: ` <h1>{{ title }} app is running!</h1>
+    <router-outlet></router-outlet>`,
 })
 export class AppComponent {
   title = 'client';
