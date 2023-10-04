@@ -1,7 +1,6 @@
 import { Module } from '@nestjs/common';
+import { CountModule } from '@royal-wolf/count';
 
-import { AppController } from './app.controller';
-import { AppService } from './app.service';
 import { ServeStaticModule } from '@nestjs/serve-static';
 import { join } from 'path';
 
@@ -15,8 +14,8 @@ const productionModules = process.env.NODE_ENV
   : [];
 
 @Module({
-  imports: [...productionModules],
-  controllers: [AppController],
-  providers: [AppService],
+  imports: [...productionModules, CountModule],
+  controllers: [],
+  providers: [],
 })
 export class AppModule {}

@@ -1,7 +1,8 @@
 import { Module } from '@nestjs/common';
+import { CountController } from './count.controller';
 
 @Module({
-  controllers: [],
+  controllers: [CountController],
   providers: [],
   exports: [],
 })

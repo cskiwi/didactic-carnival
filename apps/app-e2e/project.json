@@ -18,5 +18,5 @@
       }
     }
   },
-  "implicitDependencies": ["client"]
+  "implicitDependencies": ["client", "server"]
 }
