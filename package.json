@@ -6,6 +6,7 @@
     "start": "nx serve",
     "start:prod": "node dist/apps/server/main.js",
     "build": "nx run-many --target=build --projects=client,server --parallel",
+    "vercel-build": "npm run build",
     "test": "nx test",
     "lint": "nx lint",
     "e2e": "nx e2e client-e2e",
